@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("更新ui")
+        print("更新ui啦啦啦")
     }
 
 
