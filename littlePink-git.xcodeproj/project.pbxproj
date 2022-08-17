@@ -13,7 +13,8 @@
 		0C92EA5028AD20E7006A8535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA4E28AD20E7006A8535 /* Main.storyboard */; };
 		0C92EA5228AD20ED006A8535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA5128AD20ED006A8535 /* Assets.xcassets */; };
 		0C92EA5528AD20ED006A8535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA5328AD20ED006A8535 /* LaunchScreen.storyboard */; };
-		0C92EA5D28AD27AC006A8535 /* .gitconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA5C28AD27AC006A8535 /* .gitconfig */; };
+		0C92EA5F28AD2971006A8535 /* gitconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA5E28AD2971006A8535 /* gitconfig */; };
+		0C92EA6328AD2A07006A8535 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0C92EA6228AD2A07006A8535 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		0C92EA5128AD20ED006A8535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C92EA5428AD20ED006A8535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C92EA5628AD20ED006A8535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C92EA5C28AD27AC006A8535 /* .gitconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitconfig; sourceTree = "<group>"; };
+		0C92EA5E28AD2971006A8535 /* gitconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitconfig; sourceTree = "<group>"; };
+		0C92EA6228AD2A07006A8535 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,8 @@
 		0C92EA3C28AD20E7006A8535 = {
 			isa = PBXGroup;
 			children = (
-				0C92EA5C28AD27AC006A8535 /* .gitconfig */,
+				0C92EA5E28AD2971006A8535 /* gitconfig */,
+				0C92EA6228AD2A07006A8535 /* .gitignore */,
 				0C92EA4728AD20E7006A8535 /* littlePink-git */,
 				0C92EA4628AD20E7006A8535 /* Products */,
 			);
@@ -128,10 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C92EA6328AD2A07006A8535 /* .gitignore in Resources */,
 				0C92EA5528AD20ED006A8535 /* LaunchScreen.storyboard in Resources */,
 				0C92EA5228AD20ED006A8535 /* Assets.xcassets in Resources */,
-				0C92EA5D28AD27AC006A8535 /* .gitconfig in Resources */,
 				0C92EA5028AD20E7006A8535 /* Main.storyboard in Resources */,
+				0C92EA5F28AD2971006A8535 /* gitconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
